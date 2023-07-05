@@ -1,0 +1,48 @@
+Avaliação Semestral
+Laboratório de Programação
+Universidade Luterana do Brasil - Curso de Análise e
+Desenvolvimento de Sistemas
+Sistema de Gerenciamento de um Zoológico
+Parte 1: Construtores, Classes e Objetos
+1.1. Crie uma classe chamada Animal. Esta classe deve ter os seguintes
+atributos privados: nome (String), idade (inteiro), peso (double) e especie
+(String).
+1.2. Crie uma classe chamada Funcionario. Esta classe deve ter os
+seguintes atributos privados: nome (String), cargo (String) e salario
+(double).
+1.3. Crie uma subclasse de Funcionario chamada Veterinario. Esta
+classe deve ter um atributo adicional especialidade (String). Além disso, a
+classe deve ter um método chamado realizarExame(Animal animal) que
+
+imprima uma mensagem indicando que o veterinário está realizando um
+exame no animal.
+Parte 2: Herança e Polimorfismo
+2.1. Crie uma subclasse de Animal chamada Mamifero. Esta classe deve ter
+um atributo adicional tipoPelagem (String). Além disso, a classe deve ter um
+método amamentar() que imprima uma mensagem indicando que o
+mamífero está amamentando.
+2.2. Crie uma interface Treinavel com o método realizarTruque(), crie
+uma outra subclasse de Animal chamada Ave. Esta classe deve implementar
+uma interface Treinavel e ter um atributo adicional envergaduraAsa
+(double). Além disso, a classe deve ter um método voar() que imprima uma
+mensagem indicando que a ave está voando. O método realizarTruque()
+da interface Treinavel deve imprimir uma mensagem indicando que a ave
+realizou um truque voador.
+Parte 3: Sobrecarga de Métodos
+3.1. Na classe Animal, crie um método sobrecarregado chamado
+movimentar. Este método deve permitir que a movimentação seja registrada
+de duas maneiras diferentes:
+● Se o método receber uma string como argumento, ele deve imprimir
+uma mensagem dizendo que o animal se moveu de uma maneira
+específica.
+● Se o método não receber nenhum argumento, ele deve imprimir uma
+mensagem dizendo que o animal se moveu de uma maneira padrão.
+Parte 4: Arrays e Associações
+4.1. Crie uma nova classe Zoo que inclua um array de Animal e um array de
+Funcionario. O número de elementos em cada array deve ser especificado
+no construtor da classe Zoo.
+
+4.2. A classe Zoo deve incluir métodos para adicionar animais e funcionários
+aos arrays correspondentes. Tenha em mente que o tamanho dos arrays é
+fixo, então você precisa garantir que você não adicionará mais animais ou
+funcionários do que o tamanho do array permite.
